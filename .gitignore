@@ -1,0 +1,16 @@
+# Dependencies & Build Outputs
+node_modules/
+dashboard/node_modules/
+dashboard/dist/
+.vercel/
+
+# Large Raw Datasets (already aggregated in dashboard/src/data/biData.json)
+/*.csv
+
+# Logs & OS Files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.env
+.env.*
